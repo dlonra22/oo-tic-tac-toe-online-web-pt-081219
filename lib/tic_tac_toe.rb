@@ -112,7 +112,7 @@ def play
   if won? 
     puts "Congratulations #{winner}!"
   elsif draw?
-    puts "Its a draw!"
+    puts "Cat's Game!"
   end
 end
 
