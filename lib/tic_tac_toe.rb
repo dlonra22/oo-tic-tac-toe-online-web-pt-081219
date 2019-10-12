@@ -88,6 +88,10 @@ def full?
   holder.length == 9 && !won? ? true : false
 end
 
+def draw?
+  full?
+end
+
 end #class end
 
   
