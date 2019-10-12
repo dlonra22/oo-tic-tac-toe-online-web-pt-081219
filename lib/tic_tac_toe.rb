@@ -93,7 +93,7 @@ def draw?
 end
 
 def over?
-  dr
+  draw? || won?
 
 end #class end
 
