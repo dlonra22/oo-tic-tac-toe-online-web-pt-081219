@@ -96,6 +96,15 @@ def over?
   draw? || won? ? true : false
 end
 
+def winner
+  if current_player == 'X'
+    p_win = 'O'
+  else
+    p_win = 'X'
+  end
+  won? ? p_win : false
+end
+
 end #class end
 
   
