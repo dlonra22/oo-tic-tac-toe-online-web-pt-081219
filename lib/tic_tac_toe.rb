@@ -92,6 +92,9 @@ def draw?
   full?
 end
 
+def over?
+  dr
+
 end #class end
 
   
