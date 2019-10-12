@@ -105,6 +105,18 @@ def winner
   won? ? p_win : nil
 end
 
+def play
+  until over?
+    turn
+  end
+  if won? 
+    puts "congradulations #{winner}! you won"
+  elsif draw?
+    puts "Its a draw!"
+  end
+end
+
+
 end #class end
 
   
