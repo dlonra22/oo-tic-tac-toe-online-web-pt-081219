@@ -93,7 +93,8 @@ def draw?
 end
 
 def over?
-  draw? || won?
+  draw? || won? ? true : false
+end
 
 end #class end
 
