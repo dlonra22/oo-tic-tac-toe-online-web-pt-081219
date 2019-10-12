@@ -102,7 +102,7 @@ def winner
   else
     p_win = 'X'
   end
-  won? ? p_win : false
+  won? ? p_win : nil
 end
 
 end #class end
